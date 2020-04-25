@@ -57,7 +57,7 @@
         <div class="input-group">
           <input type="text" class="form-control" name="searchText" id="searchText" [(ngModel)]="searchText" placeholder="Filtrar búsqueda" />
           <div class="input-group-append">
-            <button class="btn btn-outline-danger" type="button" (click)="searchText=''"><i class="fa fa-trash"></i> Reestablecer búsqueda</button>
+            <button class="btn btn-outline-danger" type="button" (click)="searchText=''"><i class="fa fa-trash"></i> Reestablecer</button>
           </div>
         </div>
         <button *ngIf="!showAllTags" (click)="toogleViewTags()" class="btn btn-light btn-sm"><i class="fas fa-chevron-circle-down text-info"></i></button>
